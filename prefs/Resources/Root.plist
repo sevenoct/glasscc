@@ -1,1 +1,273 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Tambahan Control Center: 3 tab, scroll antar halaman, tombol power. Control Center utama tidak diubah.</string>
+			<key>label</key>
+			<string>GlassCC</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.hasan.glasscc/prefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.hasan.glasscc</string>
+			<key>key</key>
+			<string>Enabled</string>
+			<key>label</key>
+			<string>Aktifkan GlassCC</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Tombol tab di kanan: Favorit, Media, Konektivitas. Geser vertikal di area modul untuk pindah halaman.</string>
+			<key>label</key>
+			<string>Tab &amp; Scroll</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.hasan.glasscc/prefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.hasan.glasscc</string>
+			<key>key</key>
+			<string>TabButtons</string>
+			<key>label</key>
+			<string>Tombol tab</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.hasan.glasscc/prefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.hasan.glasscc</string>
+			<key>key</key>
+			<string>ShrinkModules</string>
+			<key>label</key>
+			<string>Perkecil modul sedikit (beri ruang untuk tab)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Menu: Matikan, Mulai Ulang, Respring.</string>
+			<key>label</key>
+			<string>Tombol Power</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.hasan.glasscc/prefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.hasan.glasscc</string>
+			<key>key</key>
+			<string>PowerButton</string>
+			<key>label</key>
+			<string>Tombol power</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Jarak dari atas layar (poin).</string>
+			<key>label</key>
+			<string>Posisi vertikal tombol power</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.hasan.glasscc/prefs</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>40.0</real>
+			<key>defaults</key>
+			<string>com.hasan.glasscc</string>
+			<key>isContinuous</key>
+			<true/>
+			<key>key</key>
+			<string>PowerY</string>
+			<key>max</key>
+			<real>160.0</real>
+			<key>min</key>
+			<real>0.0</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Kekuatan kaca dan kualitas render.</string>
+			<key>label</key>
+			<string>Main Controls</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Pengali blur di atas Blur.</string>
+			<key>label</key>
+			<string>Liquid Glass</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.hasan.glasscc/prefs</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>1.0</real>
+			<key>defaults</key>
+			<string>com.hasan.glasscc</string>
+			<key>isContinuous</key>
+			<true/>
+			<key>key</key>
+			<string>Liquidity</string>
+			<key>max</key>
+			<real>3.0</real>
+			<key>min</key>
+			<real>0.2</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Skala tekstur backdrop. Lebih rendah = lebih ringan.</string>
+			<key>label</key>
+			<string>Quality</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.hasan.glasscc/prefs</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>0.5</real>
+			<key>defaults</key>
+			<string>com.hasan.glasscc</string>
+			<key>isContinuous</key>
+			<true/>
+			<key>key</key>
+			<string>Quality</string>
+			<key>max</key>
+			<real>1.0</real>
+			<key>min</key>
+			<real>0.15</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Gunakan sensor gerak untuk menggeser kilau specular.</string>
+			<key>label</key>
+			<string>Motion Highlights</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.hasan.glasscc/prefs</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.hasan.glasscc</string>
+			<key>key</key>
+			<string>MotionHighlights</string>
+			<key>label</key>
+			<string>Motion Highlights</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Seberapa kuat kompas menggeser kilau.</string>
+			<key>label</key>
+			<string>Motion Sensitivity</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.hasan.glasscc/prefs</string>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<real>1.0</real>
+			<key>defaults</key>
+			<string>com.hasan.glasscc</string>
+			<key>isContinuous</key>
+			<true/>
+			<key>key</key>
+			<string>MotionSensitivity</string>
+			<key>max</key>
+			<real>3.0</real>
+			<key>min</key>
+			<real>0.0</real>
+			<key>showValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Blur, Refraction, Specular, Dispersion, Corner Radius, Tint untuk tombol, halaman, dan menu.</string>
+			<key>label</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkCell</string>
+			<key>detail</key>
+			<string>GCGlassListController</string>
+			<key>label</key>
+			<string>Tile Glass</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Reset mengembalikan semua nilai ke default.</string>
+			<key>label</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>resetDefaults</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Reset to Defaults</string>
+		</dict>
+		<dict>
+			<key>action</key>
+			<string>respring</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Respring</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>GlassCC</string>
+</dict>
+</plist>
