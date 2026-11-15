@@ -1,0 +1,9 @@
+Package: com.hasan.glasscc
+Name: GlassCC
+Depends: mobilesubstrate, preferenceloader, firmware (>= 15.0)
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: Tambahan Control Center bergaya iOS 26: 3 tab (Favorit / Media / Konektivitas), scroll antar halaman, dan tombol power. Memakai Liquid Glass.
+Maintainer: Hasan
+Author: Hasan
+Section: Tweaks
